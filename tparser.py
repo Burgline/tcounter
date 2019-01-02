@@ -30,6 +30,7 @@ def remove_part(w, part):
 
 def get_top(*files):
     l = {}
+    #whitelisted characters:
     good_chars = [i for i in range(ord('0'), ord('9')+1)]
     good_chars.extend([i for i in range(ord('a'), ord('z') + 1)])
     good_chars.extend([i for i in range(ord('а'), ord('я') + 1)])
